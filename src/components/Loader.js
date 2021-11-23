@@ -18,9 +18,9 @@ export default function Loader() {
             {loading ? (
                 <div className="Loader-div">
                     <img src={logo} className="Loader-img" alt="sandwich"/>
-                    <header className="Loader-header">
+                    <h1 className="Loader-h1">
                     I appreciate a good sandwich.
-                    </header>
+                    </h1>
                 </div>
                 )
             :
