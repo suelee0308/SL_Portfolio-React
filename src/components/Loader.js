@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from './styles/images/Sandwich.png'
 import './styles/Loader.css'
-import Header from './Header'
+import Portfolio from './Portfolio'
 
 export default function Loader() {
     const [loading, setLoading] = useState(false);
@@ -24,7 +24,7 @@ export default function Loader() {
                 </div>
                 )
             :
-                <Header />
+                <Portfolio />
             }   
         </div>
     )

@@ -1,12 +1,9 @@
-import './App.css';
 import Loader from './components/Loader';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Loader />
     </div>
   );
 }
-
-export default App;
