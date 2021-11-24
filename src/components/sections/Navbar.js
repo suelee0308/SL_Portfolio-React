@@ -11,7 +11,7 @@ export default function Navbar(props) {
             <nav>
                 <ul className="navbarList">
                     <li>
-                        <a className={props.currentPage === 'About' ? 'nav-link active' : 'nav-link'} onClick={() => props.pageRender('About')}>About Me</a>
+                        <a className={props.currentPage === 'About' ? 'nav-link active' : 'nav-link'} href="#about" onClick={() => props.pageRender('About')}>About Me</a>
                     </li>
                     <li>
                         <a className={props.currentPage === 'Projects' ? 'nav-link active' : 'nav-link'} href="#projects" onClick={() => props.pageRender('Projects')}>Projects</a>

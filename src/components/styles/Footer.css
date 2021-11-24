@@ -1,7 +1,22 @@
 .socialLogo {
-    width: 40px; 
+    width: 60px; 
 }
 
 .footerList {
     list-style-type: none;
+    display: inline;
 }
+
+a img:last-child {
+    display: none; 
+    border: 0;
+  }
+  a:hover img:last-child {
+    display: block; 
+    border: 0;
+  }
+  a:hover img:first-child {
+    display: none; 
+    border: 0;
+
+  }
