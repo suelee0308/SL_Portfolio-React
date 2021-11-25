@@ -1,0 +1,20 @@
+.Header {
+    width: 100%;
+}
+
+.factButton {
+    border-radius: 20px;
+    border: 9px solid black;
+    background: none;
+    padding: 0;
+    width: 900px;
+
+}
+
+.buttonImg {
+    height: 300px;
+}
+
+.factText {
+    font-family: 'Dosis', sans-serif;
+}

@@ -1,5 +1,7 @@
 .navH1 {
-    display: flex;
+    float: left;
+    font-family: 'Ribeye', cursive;
+    font-size: 80px;
 }
 
 .navbarList {
@@ -11,20 +13,23 @@
 }
 
 .navCont {
-    display: flex;
-    justify-content:space-between
+    float: right;
+    margin: 40px;
 }
 
 .navbarList * {
     display: inline-block;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 20px;
     color: #2a2a2a;
     text-align: center;
-    padding: 9px;
+    padding: 7px;
     text-decoration: none;
 }
 
 .aboutTab {
     background-color: #DB77B5;
+    width: 105px;
     margin-right: 5px;
     border: solid #000;
     border-width: 4px 4px 0px 4px;
@@ -33,6 +38,7 @@
 
 .projectsTab {
     background-color: #A1E08A;
+    width: 105px;
     margin-right: 5px;
     border: solid #000;
     border-width: 4px 4px 0px 4px;
@@ -41,6 +47,7 @@
 
 .resumeTab {
     background-color: #EA7A87;
+    width: 105px;
     margin-right: 5px;
     border: solid #000;
     border-width: 4px 4px 0px 4px;
@@ -48,12 +55,15 @@
 }
 
 .contactTab {
-    background-color: #D5AC8D;
+    background-color: #fceb95;
+    width: 108px;
     border: solid #000;
     border-width: 4px 4px 0px 4px;
     border-radius: 15px 15px 0 0;
 }
 
 .navbarList * a:hover {
-    background-color: #111111;
+    position: relative;
+    top: -7px;
+    padding-top: 14px;
   }
