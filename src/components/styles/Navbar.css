@@ -1,0 +1,59 @@
+.navH1 {
+    display: flex;
+}
+
+.navbarList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 4px solid #000;
+}
+
+.navCont {
+    display: flex;
+    justify-content:space-between
+}
+
+.navbarList * {
+    display: inline-block;
+    color: #2a2a2a;
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+}
+
+.aboutTab {
+    background-color: #DB77B5;
+    margin-right: 5px;
+    border: solid #000;
+    border-width: 4px 4px 0px 4px;
+    border-radius: 15px 15px 0 0;
+}
+
+.projectsTab {
+    background-color: #A1E08A;
+    margin-right: 5px;
+    border: solid #000;
+    border-width: 4px 4px 0px 4px;
+    border-radius: 15px 15px 0 0;
+}
+
+.resumeTab {
+    background-color: #EA7A87;
+    margin-right: 5px;
+    border: solid #000;
+    border-width: 4px 4px 0px 4px;
+    border-radius: 15px 15px 0 0;
+}
+
+.contactTab {
+    background-color: #D5AC8D;
+    border: solid #000;
+    border-width: 4px 4px 0px 4px;
+    border-radius: 15px 15px 0 0;
+}
+
+.navbarList * a:hover {
+    background-color: #111111;
+  }

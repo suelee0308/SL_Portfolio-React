@@ -1,9 +1,14 @@
+/* body {
+  background-color: #ffffff;
+} */
+
 .Loader{
   min-height: 100vh;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #ffffff;
 }
 
 .Loader-h1 {
@@ -14,10 +19,10 @@
   white-space: nowrap; /* Keeps the content on a single line */
   width: max-content;
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .1em; /* Adjust as needed */
+  letter-spacing: 0; /* Adjust as needed */
   animation: 
     typing 3s steps(29, end),
-    blink-caret .75s step-end infinite;
+    blink-caret .5s step-end infinite;
   transition: opacity 0.2s 0 ease;
 }
 

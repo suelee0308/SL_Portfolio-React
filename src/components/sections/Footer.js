@@ -14,19 +14,19 @@ export default function Footer() {
             <nav>
                 <ul className="footerList">
                     <li>
-                        <a className="github" href="https://github.com/suelee0308" target='_blank' rel='noreferrer'>
+                        <a className="footerLink github" href="https://github.com/suelee0308" target='_blank' rel='noreferrer'>
                             <img className='socialLogo' src={github} alt='github logo'/>
                             <img className='socialLogo' src={githubhover} alt='github logo'/>
                         </a>
                     </li>
                     <li>
-                        <a className="linkedin" href="https://www.linkedin.com/in/sue-lee-b1b3aa21b/" target='_blank' rel='noreferrer'>
+                        <a className="footerLink linkedin" href="https://www.linkedin.com/in/sue-lee-b1b3aa21b/" target='_blank' rel='noreferrer'>
                             <img className='socialLogo' src={linkedin} alt='linkedin logo'/>
                             <img className='socialLogo' src={linkedinhover} alt='linkedin logo'/>
                         </a>
                     </li>
                     <li>
-                        <a className="stack" href="https://stackoverflow.com/users/16763627/sue-lee?tab=profile" target='_blank' rel='noreferrer'>
+                        <a className="footerLink stack" href="https://stackoverflow.com/users/16763627/sue-lee?tab=profile" target='_blank' rel='noreferrer'>
                             <img className='socialLogo' src={stack} alt='stack logo'/>
                             <img className='socialLogo' src={stackhover} alt='stack logo'/>
                         </a>
