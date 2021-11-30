@@ -42,6 +42,11 @@ export default function Header () {
         }
     };
 
+    // function setBorder() {
+    //     if (randomFacts[index].image.files.name.match(/.(jpeg)$/i))
+        
+    // }
+
     return (
         <div className="Header">
             <div className="randomFacts" key={randomFacts[index].image}>

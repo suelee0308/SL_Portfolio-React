@@ -2,6 +2,8 @@
     float: left;
     font-family: 'Ribeye', cursive;
     font-size: 80px;
+    margin-top: 30px;
+    margin-left: 45px; 
 }
 
 .navbarList {
@@ -10,6 +12,7 @@
     padding: 0;
     overflow: hidden;
     border-bottom: 4px solid #000;
+    display: inline-block;
 }
 
 .navCont {

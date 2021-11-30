@@ -15,6 +15,7 @@ export default function Loader() {
 
     return (
         <div className="Loader">
+            <div className="loadContent">
             {loading ? (
                 <div className="Loader-div">
                     <img src={logo} className="Loader-img" alt="sandwich"/>
@@ -25,7 +26,8 @@ export default function Loader() {
                 )
             :
                 <Portfolio />
-            }   
+            }  
+            </div> 
         </div>
     )
 }

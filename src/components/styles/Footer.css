@@ -1,12 +1,20 @@
 .socialLogo {
-    width: 50px; 
+    width: 40px; 
+}
+
+.footerList {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  right: auto;
+  z-index: 10;
+  padding-left: 20px;
 }
 
 .footerList *{
     list-style-type: none;
     display: block;
-    float: left;
-    margin: 4px;
+    margin: 5px;
 }
 
 .footerLink .socialLogo:last-child {
@@ -20,5 +28,11 @@
 .footerLink:hover .socialLogo:first-child {
     display: none; 
     border: 0;
+  }
 
+
+  @media screen and (min-width: 992px) {
+    .Loader-h1 {
+      font-size: 45px;
+    }
   }

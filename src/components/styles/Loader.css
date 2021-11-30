@@ -1,14 +1,17 @@
-/* body {
+body {
   background-color: #ffffff;
-} */
+}
 
-.Loader{
+.loadContent {
   min-height: 100vh;
-  text-align: center;
+  min-width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
+}
+
+.Loader-div {
+  text-align: center;
 }
 
 .Loader-h1 {
