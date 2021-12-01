@@ -1,6 +1,15 @@
 .AboutMe {
-    width: 300px;
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
+}
+
+.aboutMeContainer {
+    width: 300px;
+}
+
+.headshot {
+    height: 300px;
+    border-radius: 39% 61% 24% 76% / 69% 31% 69% 31% ;
 }

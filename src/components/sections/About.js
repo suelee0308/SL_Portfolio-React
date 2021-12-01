@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/About.css";
+// import photo from "../../../public/images/headshot.jpg"
 
 export default function About({loading}) {
     
@@ -9,8 +10,9 @@ export default function About({loading}) {
             <div></div>
             : 
             (
-            <div>
+            <div className='aboutMeContainer'>
             <h1>Hi! I'm Sue Lee!</h1>
+            <img className='headshot' src='./images/headshot.jpg' alt='headshot' />
             <h1>I spend a lot of time in front of the computer.</h1>
             <p>
                 I am a full stack web developer with a good eye. I've always had a love for design and user experience. In my 8 years of teaching, this applied to how I operated my classroom. In web development, I've found that this applies to UX but also the code itself and how its structured and written.

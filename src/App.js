@@ -47,7 +47,7 @@ export default function App() {
   return (
     <div className="App">
       <Loader loading = {loading} />
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} loading = {loading}/>
+      <Navbar loading = {loading} currentPage={currentPage} handlePageChange={handlePageChange} />
       <Header loading = {loading} />
       {pageRender()}
       <Footer loading ={loading} />
