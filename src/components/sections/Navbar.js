@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/Navbar.css";
 
-export default function Navbar(props, {loading}) {
-    
+export default function Navbar(props) {
+    console.log('navbar', props.loading)
     return(
         <div className="navbar">
-            { loading ? 
+            { props.loading  ?
             <div></div>
-            :
+                :
             (
             <div className="navBarContainer">    
                 <h1 className="navH1">

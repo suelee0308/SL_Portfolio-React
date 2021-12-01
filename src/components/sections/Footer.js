@@ -5,10 +5,12 @@ import stack from '../styles/images/stackblank.png'
 import githubhover from '../styles/images/githubhover.png'
 import linkedinhover from '../styles/images/linkedinhover.png'
 import stackhover from '../styles/images/stackhover.png'
+import email from '../styles/images/emailblank.png'
+import emailhover from '../styles/images/emailhover.png'
 import '../styles/Footer.css';
 
 export default function Footer({loading}) {
-    
+    console.log('footer', loading)
     return(
         <div className="Footer">
             { loading ? 
@@ -33,6 +35,12 @@ export default function Footer({loading}) {
                         <a className="footerLink stack" href="https://stackoverflow.com/users/16763627/sue-lee?tab=profile" target='_blank' rel='noreferrer'>
                             <img className='socialLogo' src={stack} alt='stack logo'/>
                             <img className='socialLogo' src={stackhover} alt='stack logo'/>
+                        </a>
+                    </li>
+                    <li>
+                        <a className="footerLink email" href="mailto:sue.lee0308@gmail.com" target='_blank' rel='noreferrer'>
+                            <img className='socialLogo' src={email} alt='email logo'/>
+                            <img className='socialLogo' src={emailhover} alt='email logo'/>
                         </a>
                     </li>
                 </ul>
