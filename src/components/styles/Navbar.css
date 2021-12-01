@@ -1,5 +1,12 @@
+.hidden {
+  display: none;
+}
+
+.navBarContainer {
+  display: flex;
+}
+
 .navH1 {
-    float: left;
     font-family: 'Ribeye', cursive;
     font-size: 80px;
     margin-top: 30px;
@@ -7,16 +14,18 @@
 }
 
 .navbarList {
+    height: 55px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border-bottom: 4px solid #000;
     display: inline-block;
+    position: absolute; 
 }
 
 .navCont {
-    float: right;
+    /* float: right; */
     margin: 40px;
 }
 
@@ -65,8 +74,19 @@
     border-radius: 15px 15px 0 0;
 }
 
-.navbarList * a:hover {
+.contactTab:hover {
     position: relative;
-    top: -7px;
-    padding-top: 14px;
+    --transformY: 7px;
   }
+
+  /* @media screen and (min-width: 768px) {
+    .Loader-h1 {
+      font-size: 30px;
+    }
+  }
+   */
+  /* @media screen and (min-width: 992px) {
+    .Loader-h1 {
+      font-size: 45px;
+    }
+  } */

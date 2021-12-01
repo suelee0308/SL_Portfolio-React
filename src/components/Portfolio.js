@@ -38,9 +38,8 @@ export default function Portfolio() {
     return (
         <div className="Portfolio">
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
-            <Header />
             {pageRender()}
-            <Footer />
+
         </div>
     )
 }

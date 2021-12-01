@@ -1,10 +1,15 @@
 import React from "react";
 import "../styles/About.css";
 
-export default function About() {
+export default function About({loading}) {
     
     return(
-        <div className="About">
+        <div className="AboutMe">
+        { loading ? 
+            <div></div>
+            : 
+            (
+            <div>
             <h1>Hi! I'm Sue Lee!</h1>
             <h1>I spend a lot of time in front of the computer.</h1>
             <p>
@@ -13,6 +18,9 @@ export default function About() {
             <p>
                 After graduating with a degree in education from the University of Texas at Austin and teaching little people, I bring leadership and effective communication skills to this world of web development. I am well versed in teamwork and being detail-oriented. I strive daily to make life easier for people - whether that be clients, my students, my family, or my dog.
             </p>
+            </div>
+            )
+        }
         </div>
     );
 }

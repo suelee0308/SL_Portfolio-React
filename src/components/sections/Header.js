@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import "../styles/Header.css";
 
 
-export default function Header () {
+export default function Header ({loading}) {
 
     const [index, setIndex] = useState(0);
 
@@ -49,14 +49,22 @@ export default function Header () {
 
     return (
         <div className="Header">
-            <div className="randomFacts" key={randomFacts[index].image}>
-                <button className='factButton' onClick={() => changeFact()}>
-                    <img className='buttonImg' src={randomFacts[index].image} alt='random'/>
-                </button>
-                <h1 className='factText'>
-                    {randomFacts[index].fact}
-                </h1>
+            { loading ?
+            <div></div>
+                :
+            (
+            <div>    
+                <div className="randomFacts" key={randomFacts[index].image}>
+                    <button className='factButton' onClick={() => changeFact()}>
+                        <img className='buttonImg' src={randomFacts[index].image} alt='random'/>
+                    </button>
+                    <h1 className='factText'>
+                        {randomFacts[index].fact}
+                    </h1>
+                </div>
             </div>
+            )
+            }
         </div>
     )
 }

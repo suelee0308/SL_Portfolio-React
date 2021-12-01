@@ -25,6 +25,7 @@
     display: block; 
     border: 0;
   }
+  
 .footerLink:hover .socialLogo:first-child {
     display: none; 
     border: 0;
@@ -32,7 +33,5 @@
 
 
   @media screen and (min-width: 992px) {
-    .Loader-h1 {
-      font-size: 45px;
-    }
+    
   }

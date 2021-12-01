@@ -7,11 +7,15 @@ import linkedinhover from '../styles/images/linkedinhover.png'
 import stackhover from '../styles/images/stackhover.png'
 import '../styles/Footer.css';
 
-export default function Footer() {
+export default function Footer({loading}) {
     
     return(
         <div className="Footer">
-            <nav>
+            { loading ? 
+
+            <div></div>
+                :
+            (<nav>
                 <ul className="footerList">
                     <li>
                         <a className="footerLink github" href="https://github.com/suelee0308" target='_blank' rel='noreferrer'>
@@ -32,7 +36,9 @@ export default function Footer() {
                         </a>
                     </li>
                 </ul>
-            </nav>
+                </nav>
+                )
+            }
         </div>
-    );
+    )
 }
