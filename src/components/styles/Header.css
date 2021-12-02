@@ -2,20 +2,40 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 20px;
+    border-top: 3px solid #be9973;
+    border-bottom: 3px solid #be9973;
 }
 
-.factButton {
-    border-radius: 20px;
-    border: 9px solid black;
-    background: none;
-    padding: 0;
-    width: 900px;
-}
-
-.buttonImg {
-    height: 300px;
+.iconImg {
+    height: 280px;
+    display: block;
+    margin: auto;
 }
 
 .factText {
     font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 645px;
+    height: 85px;
+    display: inline-block;
+    margin: 20px 0 0 0;
 }
+
+.factButton {
+    border: transparent;
+    background: none;
+    padding: 0;
+}
+
+.factButton:hover {
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.buttonImg {
+    height: 30px;
+    display: inline-block;
+}
+

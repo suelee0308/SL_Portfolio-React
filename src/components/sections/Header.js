@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import next from '../styles/images/next.png'
 import "../styles/Header.css";
 
 
@@ -55,12 +56,15 @@ export default function Header ({loading}) {
             (
             <div>    
                 <div className="randomFacts" key={randomFacts[index].image}>
-                    <button className='factButton' onClick={() => changeFact()}>
-                        <img className='buttonImg' src={randomFacts[index].image} alt='random'/>
-                    </button>
+                    <img className='iconImg' src={randomFacts[index].image} alt='random'/>
+                    
                     <h1 className='factText'>
                         {randomFacts[index].fact}
                     </h1>
+                    
+                    <button className='factButton' onClick={() => changeFact()}>
+                    <img className='buttonImg' src={next} alt='next'/>
+                    </button>
                 </div>
             </div>
             )
