@@ -7,6 +7,10 @@ export default function Resume() {
         <div className="Resume">
             <h1>Resume</h1>
 
+            <a className="resume" href="./images/Resume.pdf" target="_blank" rel="noreferrer">
+                 Download Resume
+            </a>
+
             <div>
                 <h2>Programming Languages</h2>
                 <ul>

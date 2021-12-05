@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Contact.css";
 import { validateEmail } from '../utils/helper';
+import {Snackbar, Alert} from "@mui/material/";
 
 export default function Contact() {
     const [name, setName] = useState('');
@@ -8,7 +9,7 @@ export default function Contact() {
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
     const [error, setError] = useState(false);
-    const [submited, setSubmitted] = useState(false);
+    const [submitted, setSubmitted] = useState(false);
 
     const handleInput = (e) => {
         const inputName = e.target.name;
@@ -51,6 +52,15 @@ export default function Contact() {
         setSubmitted(true);
     }
     
+    const handleErrorClose = (e) => {
+        setErrorMessage("");
+        setError(false);
+    }
+
+    const handleSubmitClose = () => {
+        setSubmitted(false);
+    }
+
     return(
         <div className="Contact">
             
@@ -64,6 +74,13 @@ export default function Contact() {
                 <textarea id='message' name='message' placeholder='Message' value={message} onChange={handleInput} onBlur={handleBlur}></textarea>
                 <button className='button' type='submit' onClick={handleSubmit}>Submit</button>
             </form>
+            <Snackbar open={error} autoHideDuration={6000} onClose={handleErrorClose}>
+                <Alert severity="error" onClose={handleErrorClose} sx={{ width: '100%' }}>{errorMessage}</Alert>
+            </Snackbar>
+
+            <Snackbar open={submitted} autoHideDuration={6000} onClose={handleSubmitClose}>
+                <Alert severity="success" onClose={handleSubmitClose} sx={{width: '100%'}}>Message submitted!</Alert>
+            </Snackbar>
         </div>
     );
 }
