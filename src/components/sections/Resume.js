@@ -13,7 +13,7 @@ export default function Resume() {
 
             <div>
                 <h2>Programming Languages</h2>
-                <ul>
+                <ul className="resumeList">
                     <li>HTML5</li>
                     <li>CSS</li>
                     <li>JavaScript (ES6)</li>
@@ -22,7 +22,7 @@ export default function Resume() {
             </div>
             <div>
                 <h2>Libraries & Frameworks</h2>
-                <ul>
+                <ul className="resumeList">
                     <li>jQuery</li>
                     <li>Node.js</li>
                     <li>Express.js</li>
@@ -31,7 +31,7 @@ export default function Resume() {
             </div>
             <div>
                 <h2>Databases & Libraries</h2>
-                <ul>
+                <ul className="resumeList">
                     <li>SQL</li>
                     <li>NoSQL</li>
                     <li>Sequelize</li>
@@ -41,7 +41,7 @@ export default function Resume() {
             </div>
             <div>
                 <h2>Tools & Platforms</h2>
-                <ul>
+                <ul className="resumeList" >
                     <li>GitHub</li>
                     <li>Heroku</li>
                     <li>Netlify</li>

@@ -1,0 +1,11 @@
+.Resume {
+    text-align: center;
+}
+
+.Resume > h1 {
+    font-family: 'Mochiy Pop One', sans-serif;
+ }
+
+ .resumeList {
+     list-style: none;
+ }

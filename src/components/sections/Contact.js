@@ -64,7 +64,7 @@ export default function Contact() {
     return(
         <div className="Contact">
             
-            <form>
+            <form className='contactForm'>
                 <h1>Contact me!</h1>
                 <label>Name:</label>
                 <input type='text' id='name' name='name' placeholder='Name' value={name} onChange={handleInput} onBlur={handleBlur}></input>
@@ -72,7 +72,7 @@ export default function Contact() {
                 <input type='text' id='email' name='email' placeholder='Email' value={email} onChange={handleInput} onBlur={handleBlur}></input>
                 <label>Questions/Comments:</label>
                 <textarea id='message' name='message' placeholder='Message' value={message} onChange={handleInput} onBlur={handleBlur}></textarea>
-                <button className='button' type='submit' onClick={handleSubmit}>Submit</button>
+                <button className='contactButton' type='submit' onClick={handleSubmit}>Submit</button>
             </form>
             <Snackbar open={error} autoHideDuration={6000} onClose={handleErrorClose}>
                 <Alert severity="error" onClose={handleErrorClose} sx={{ width: '100%' }}>{errorMessage}</Alert>

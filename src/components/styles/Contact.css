@@ -1,0 +1,42 @@
+.Contact {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.contactForm > h1 {
+    font-family: 'Mochiy Pop One', sans-serif;
+ }
+
+.contactForm {
+    width: 50%;
+    padding-bottom: 40px;
+    margin: 20px;
+}
+
+.contactForm > label {
+    display: block;
+    font-family: 'Manrope', sans-serif;
+}
+
+.contactForm > input {
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.contactForm > textarea {
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.contactButton {
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    margin: auto;
+}
