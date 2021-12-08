@@ -1,11 +1,34 @@
 .Resume {
     text-align: center;
+    margin-bottom: 75px;
 }
 
 .Resume > h1 {
     font-family: 'Mochiy Pop One', sans-serif;
  }
 
+.Resume > a, h2, li {
+    font-family: 'Manrope', sans-serif;
+}
+
+.resumeLink {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.resumeBtn {
+    background-color: rgb(139, 189, 228);
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 18px
+}
+
  .resumeList {
-     list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: circle;
+    list-style-position: inside;
+    padding: 0;
  }

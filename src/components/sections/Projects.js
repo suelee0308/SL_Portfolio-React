@@ -9,7 +9,7 @@ export default function Projects() {
             title: 'Sheltr',
             description: 'Full Stack MERN application',
             tech: 'React | Node.js | Express.js | Mongoose | CSS',
-            deploy: 'link',
+            deploy: 'https://sheltr-app.herokuapp.com/',
             github: 'https://github.com/echo1826/sheltr',
         },
         {

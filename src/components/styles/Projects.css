@@ -2,6 +2,7 @@
    display: flex;
    justify-content: center;
    text-align: center;
+   padding-bottom: 45px;
 }
 
 .Projects > h1 {
@@ -14,13 +15,14 @@
 
 .projectCards {
    border: solid 2px black;
-   width: 500px;
+   min-width: 350px;
    border-radius: 20px;
    display: flex;
+   flex-direction: row;
    justify-content: center;
    text-align: center;
    font-family: 'Manrope', sans-serif;
-
+   margin: 10px;
 }
 
 .projectLink {

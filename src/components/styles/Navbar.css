@@ -1,6 +1,7 @@
 .navBarContainer {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .navH1 {
@@ -22,7 +23,7 @@
 }
 
 .navCont {
-    margin: 40px;
+    margin: 40px 40px 10px 40px;
 }
 
 .navbarList * {
@@ -72,7 +73,7 @@
     .navCont {
       position: fixed;
       bottom: 0;
-      margin: 10px;
+      margin: 0;
     }
   }
   

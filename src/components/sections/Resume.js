@@ -7,11 +7,13 @@ export default function Resume() {
         <div className="Resume">
             <h1>Resume</h1>
 
-            <a className="resume" href="./images/Resume.pdf" target="_blank" rel="noreferrer">
-                 Download Resume
-            </a>
+            <button className='resumeBtn'>
+                <a className="resumeLink" href="./images/Resume.pdf" target="_blank" rel="noreferrer">
+                    Download Resume
+                </a>
+            </button>
 
-            <div>
+            <div className='resumeListDiv'>
                 <h2>Programming Languages</h2>
                 <ul className="resumeList">
                     <li>HTML5</li>
