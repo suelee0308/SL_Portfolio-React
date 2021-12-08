@@ -49,12 +49,12 @@ export default function Header ({loading}) {
     // }
 
     return (
-        <div className="Header">
+        <div>
             { loading ?
             <div></div>
                 :
             (
-            <div>    
+            <div className="Header">    
                 <div className="randomFacts" key={randomFacts[index].image}>
                     <img className='iconImg' src={randomFacts[index].image} alt='random'/>
                     

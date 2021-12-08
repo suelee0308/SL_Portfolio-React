@@ -24,19 +24,27 @@
 .contactForm > input {
     width: 300px;
     height: 50px;
-    border-radius: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    border: solid 4px black;
     font-family: 'Manrope', sans-serif;
 }
 
 .contactForm > textarea {
     width: 300px;
     height: 150px;
-    border-radius: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    border: solid 4px black;
     font-family: 'Manrope', sans-serif;
 }
 
 .contactButton {
     display: block;
     font-family: 'Manrope', sans-serif;
+    background-color: rgb(139, 189, 228);
+    height: 25px;
+    border: solid 2px black;
+    border-radius: 7px;
     margin: auto;
 }
