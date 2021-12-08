@@ -62,7 +62,7 @@ export default function Projects() {
                     return (
                     <div className="projectCards">
                     <li className="card">
-                    <a href={project.deploy} target="_blank" rel="noreferrer" className="projectLink">
+                    <a href={project.deploy} target="_blank" rel="noreferrer" className="projectATag">
                         <img className="projectImg" src={project.image} alt={project.title} />
                     </a>
                     <div className="card-body">

@@ -25,11 +25,11 @@
    margin: 10px;
 }
 
-.projectLink {
+.projectATag {
    opacity: 50%;
 }
 
-.projectLink:hover {
+.projectATag:hover {
    opacity: 100%;
 }
 
