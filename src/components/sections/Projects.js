@@ -5,7 +5,7 @@ export default function Projects() {
 
     const projects = [
         {
-            image: './images/sheltr.png',
+            image: '/images/sheltr.png',
             title: 'Sheltr',
             description: 'Full Stack MERN application',
             tech: 'React | Node.js | Express.js | Mongoose | CSS',
@@ -13,7 +13,7 @@ export default function Projects() {
             github: 'https://github.com/echo1826/sheltr',
         },
         {
-            image: './images/feedyourlifestyle.png',
+            image: '/images/feedyourlifestyle.png',
             title: 'Feed Your Lifestyle',
             description: 'Full Stack application',
             tech: 'Node.js | Express.js | SQL | Sequelize | Handlebars.js | HTML | CSS',
@@ -21,7 +21,7 @@ export default function Projects() {
             github: 'https://github.com/Delmanat3/Feed-Your-Lifesyle',
         },
         {
-            image: './images/fanjam.png',
+            image: '/images/fanjam.png',
             title: 'Fan Jam',
             description: 'Dynamic front-end application',
             tech: 'Javascript | Materialize.css | HTML | CSS',
@@ -29,7 +29,7 @@ export default function Projects() {
             github: 'https://github.com/BradMW/FanJam-Project-1',
         },
         {
-            image: './images/theoffice.png',
+            image: '/images/theoffice.png',
             title: 'The Office Quiz',
             description: 'Dynamic front-end application',
             tech: 'Javascript | HTML | CSS',
@@ -37,7 +37,7 @@ export default function Projects() {
             github: 'https://github.com/suelee0308/code-quiz',
         },
         {
-            image: './images/fitness.png',
+            image: '/images/fitness.png',
             title: 'Fitness Tracker',
             description: 'Full Stack node application',
             tech: 'MongoDB | Mongoose | Express.js | Node.js | Bootstrap',
@@ -45,7 +45,7 @@ export default function Projects() {
             github: 'https://github.com/suelee0308/NoSQL-workout-tracker',
         },
         {
-            image: './images/employee.png',
+            image: '/images/employee.png',
             title: 'Employee Tracker',
             description: 'Command-line application for employee database',
             tech: 'MySQL2 | Node.js | Express.js',
