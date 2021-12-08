@@ -23,14 +23,18 @@
 
 }
 
-.projectLink:hover {
+.projectLink {
    opacity: 50%;
+}
+
+.projectLink:hover {
+   opacity: 100%;
 }
 
 .projectImg {
    width: 350px;
    height: 200px;
-   object-fit: cover;
+   object-fit: contain;
    position: relative;
-   margin: 0px;
+   margin-top: 20px;
 }

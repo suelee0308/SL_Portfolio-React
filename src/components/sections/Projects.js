@@ -5,7 +5,7 @@ export default function Projects() {
 
     const projects = [
         {
-            image: './images/boba.png',
+            image: './images/sheltr.png',
             title: 'Sheltr',
             description: 'Full Stack MERN application',
             tech: 'React | Node.js | Express.js | Mongoose | CSS',
@@ -23,7 +23,7 @@ export default function Projects() {
         {
             image: './images/fanjam.png',
             title: 'Fan Jam',
-            description: 'Full Stack MERN application',
+            description: 'Dynamic front-end application',
             tech: 'Javascript | Materialize.css | HTML | CSS',
             deploy: 'https://bradmw.github.io/FanJam-Project-1/',
             github: 'https://github.com/BradMW/FanJam-Project-1',
@@ -31,26 +31,26 @@ export default function Projects() {
         {
             image: './images/theoffice.png',
             title: 'The Office Quiz',
-            description: 'Full Stack MERN application',
+            description: 'Dynamic front-end application',
             tech: 'Javascript | HTML | CSS',
             deploy: 'https://suelee0308.github.io/code-quiz/',
             github: 'https://github.com/suelee0308/code-quiz',
         },
         {
-            image: './images/fanjam.png',
-            title: 'Fan Jam',
-            description: 'Full Stack MERN application',
-            tech: 'blah blah blah',
-            deploy: 'link',
-            github: 'link',
+            image: './images/fitness.png',
+            title: 'Fitness Tracker',
+            description: 'Full Stack node application',
+            tech: 'MongoDB | Mongoose | Express.js | Node.js | Bootstrap',
+            deploy: 'https://workout-sl.herokuapp.com/',
+            github: 'https://github.com/suelee0308/NoSQL-workout-tracker',
         },
         {
-            image: './images/fanjam.png',
-            title: 'Fan Jam',
-            description: 'Full Stack MERN application',
-            tech: 'blah blah blah',
-            deploy: 'link',
-            github: 'link',
+            image: './images/employee.png',
+            title: 'Employee Tracker',
+            description: 'Command-line application for employee database',
+            tech: 'MySQL2 | Node.js | Express.js',
+            deploy: 'https://youtu.be/At2G9kqsIgA',
+            github: 'https://github.com/suelee0308/SQL-Employee-Tracker',
         },
     ]
 
@@ -67,6 +67,7 @@ export default function Projects() {
                     </a>
                     <div className="card-body">
                         <h3>{project.title}</h3>
+                        <p>{project.description}</p>
                         <p>{project.tech}</p>
                         <a href={project.github} target="_blank" rel="noreferrer">
                             <p className="github-button">Github Repo</p>
