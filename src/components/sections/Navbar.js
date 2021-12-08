@@ -10,9 +10,9 @@ export default function Navbar(props) {
                 :
             (
             <div className="navBarContainer">    
-                <h1 className="navH1">
-                    Sue Lee
-                </h1>
+                <a href='/' className='navName'>
+                    <h1 className="navH1">Sue Lee</h1>
+                </a>
                 <nav className="navCont">
                     <ul className="navbarList">
                         <li className='aboutTab'>

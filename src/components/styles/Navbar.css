@@ -4,6 +4,10 @@
   align-items: flex-end;
 }
 
+.navName {
+  text-decoration: none;
+}
+
 .navH1 {
     font-family: 'Ribeye Marrow', cursive;
     font-size: 80px;
