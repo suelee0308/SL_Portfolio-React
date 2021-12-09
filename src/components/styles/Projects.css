@@ -25,9 +25,13 @@
    margin: 10px;
 }
 
-/* .projectATag {
-   opacity: 50%;
-} */
+.projectATag {
+   opacity: .5;
+}
+
+.projectATag:hover {
+   opacity: 1;
+}
 
 .projectImg {
    width: 350px;
@@ -35,9 +39,5 @@
    object-fit: contain;
    position: relative;
    margin-top: 20px;
-   opacity: 50%;
 }
 
-.projectImg:hover {
-   opacity: 100%;
-}
