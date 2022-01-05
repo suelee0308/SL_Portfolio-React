@@ -19,13 +19,13 @@
 }
 
 .factText {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Gochi Hand', cursive;
     font-size: 25px;
+    font-weight:lighter;
     text-align: center;
     width: 500px;
-    height: 85px;
     display: inline-block;
-    margin: 20px 0 0 0;
+    margin: 30px 0px;
 }
 
 .factButton {
@@ -41,6 +41,18 @@
 
 .buttonImg {
     height: 30px;
+    margin: 20px;
     display: inline-block;
 }
 
+
+@media screen and (max-width: 750px) {
+    .factText {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .iconImg {
+        height: 200px;
+    }
+}

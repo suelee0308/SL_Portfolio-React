@@ -18,7 +18,7 @@ export default function Header ({loading}) {
         },
         {
             image: './images/coke.png',
-            fact: "I don't drink Diet Coke, Coke Zero nor any other variation of Coke. I only drink the real thing."
+            fact: "I don't drink Diet Coke, Coke Zero nor any variation of Coke. I only drink the real thing."
         },
         {
             image: './images/pragueclass.jpeg',
@@ -58,9 +58,9 @@ export default function Header ({loading}) {
                 <div className="randomFacts" key={randomFacts[index].image}>
                     <img className='iconImg' src={randomFacts[index].image} alt='random'/>
                     <section className="factSection">
-                        <h1 className='factText'>
+                        <h2 className='factText'>
                             {randomFacts[index].fact}
-                        </h1>
+                        </h2>
                         <button className='factButton' onClick={() => changeFact()}>
                         <img className='buttonImg' src={next} alt='next'/>
                         </button>
