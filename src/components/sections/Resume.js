@@ -4,7 +4,7 @@ import "../styles/Resume.css";
 export default function Resume() {
     
     return(
-        <div className="Resume">
+        <div className="Resume" id="resume">
             <h1>Resume</h1>
 
             <button className='resumeBtn'>

@@ -55,7 +55,7 @@ export default function Projects() {
     ]
 
     return(
-        <div className="Projects">
+        <div className="Projects" id="projects">
             <h1>My projects</h1>
             <ul className="projectUL">
                 {projects.map((project) => {

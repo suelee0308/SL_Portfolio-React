@@ -22,7 +22,7 @@ export default function Header ({loading}) {
         },
         {
             image: './images/pragueclass.jpeg',
-            fact: 'I studied abroad in Prague, Czech Republic for a semester. (Photo taken from my classroom)'
+            fact: 'I studied abroad in Prague, Czech Republic for a semester. (photo taken from my classroom)'
         },
         {
             image: './images/climbing.jpeg',
@@ -57,14 +57,14 @@ export default function Header ({loading}) {
             <div className="Header">    
                 <div className="randomFacts" key={randomFacts[index].image}>
                     <img className='iconImg' src={randomFacts[index].image} alt='random'/>
-                    
-                    <h1 className='factText'>
-                        {randomFacts[index].fact}
-                    </h1>
-                    
-                    <button className='factButton' onClick={() => changeFact()}>
-                    <img className='buttonImg' src={next} alt='next'/>
-                    </button>
+                    <section className="factSection">
+                        <h1 className='factText'>
+                            {randomFacts[index].fact}
+                        </h1>
+                        <button className='factButton' onClick={() => changeFact()}>
+                        <img className='buttonImg' src={next} alt='next'/>
+                        </button>
+                    </section>
                 </div>
             </div>
             )
