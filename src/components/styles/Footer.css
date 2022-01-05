@@ -32,6 +32,13 @@
   }
 
 
-  @media screen and (min-width: 992px) {
-    
+  @media screen and (max-width: 992px) {
+    .footerList {
+      width: 40px;
+      position: fixed;
+      top: 0px;
+      right: 50px;
+      z-index: 10;
+      padding-right: 20px;
+    }
   }

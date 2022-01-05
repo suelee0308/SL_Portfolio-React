@@ -73,11 +73,43 @@
     transform: translate(0px, 9px);
     
 }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 992px) {
+    .navBarContainer {
+      display: flex;
+    }
+
+    .navbarList {
+      height: 35px;
+    }
+
     .navCont {
       position: fixed;
       bottom: 0;
-      margin: 0;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+    .navbarList * {
+      font-size: 14px;
+      padding: 5px;
+    }
+      .aboutTab {
+        width: 70px;
+        margin-right: 5px;
+    }
+    
+    .projectsTab {
+        width: 70px;
+        margin-right: 5px;
+    }
+    
+    .resumeTab {
+        width: 70px;
+        margin-right: 5px;
+    }
+    
+    .contactTab {
+        width: 73px;
     }
   }
   

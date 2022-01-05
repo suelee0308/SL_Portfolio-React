@@ -46,6 +46,7 @@ export default function Resume() {
                 <ul className="resumeList" >
                     <li>GitHub</li>
                     <li>Heroku</li>
+                    <li>Vercel</li>
                     <li>Netlify</li>
                 </ul>
             </div>

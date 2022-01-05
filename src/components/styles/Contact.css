@@ -42,8 +42,9 @@
 .contactButton {
     display: block;
     font-family: 'Manrope', sans-serif;
+    font-size: 15px;
     background-color: rgb(139, 189, 228);
-    height: 25px;
+    padding: 10px 15px;
     border: solid 2px black;
     border-radius: 7px;
     margin: auto;

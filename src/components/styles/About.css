@@ -35,3 +35,15 @@
     width: 80%;
     padding: 60px 20px;
 }
+
+@media screen and (max-width: 992px) {
+    .aboutMeHeader > h1 {
+        width: 300px;
+        font-size: 2rem;
+        margin-left: 35px;
+        line-height: 35px;
+    }
+    .aboutSection {
+        padding: 35px 20px;
+    }
+}
