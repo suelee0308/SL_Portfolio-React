@@ -10,7 +10,7 @@
 
 .navH1 {
     font-family: 'Ribeye Marrow', cursive;
-    font-size: 80px;
+    font-size: 85px;
     color: #000;
     text-shadow: 3px 3px 2px #be9973;
     margin: 20px 0px 20px 45px;
@@ -74,11 +74,15 @@
     
 }
   @media screen and (max-width: 992px) {
-
     .navBarContainer {
       display: flex;
       justify-content: center;
       align-items: flex-end;
+    }
+
+    .navH1 {
+      font-size: 70px;
+      margin: 20px 0px 20px 0px;
     }
 
     .navbarList {
