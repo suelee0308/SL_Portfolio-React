@@ -86,7 +86,7 @@
     }
 
     .navbarList {
-      height: 35px;
+      height: 38px;
     }
 
     .navCont {
@@ -95,6 +95,7 @@
       margin: auto;
       display: flex;
       justify-content: center;
+      background-color: #FCE2D0;
     }
     .navbarList * {
       font-size: 14px;

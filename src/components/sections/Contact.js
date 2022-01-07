@@ -67,6 +67,7 @@ export default function Contact() {
             <form className='contactForm'>
                 <h1>Contact me!</h1>
                 <label>Name:</label>
+                <br></br>
                 <input type='text' id='name' name='name' placeholder='Name' value={name} onChange={handleInput} onBlur={handleBlur}></input>
                 <label>Email:</label>
                 <input type='text' id='email' name='email' placeholder='Email' value={email} onChange={handleInput} onBlur={handleBlur}></input>

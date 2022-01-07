@@ -1,3 +1,7 @@
+.Footer {
+  overflow-x: hidden;
+}
+
 .socialLogo {
     width: 40px; 
 }
@@ -14,7 +18,14 @@
 .footerList *{
     list-style-type: none;
     display: block;
-    margin: 5px;
+}
+
+.socialHamburger {
+  display: none;
+}
+
+.socialLogo {
+  margin: 5px;
 }
 
 .footerLink .socialLogo:last-child {
@@ -36,9 +47,30 @@
     .footerList {
       width: 40px;
       position: fixed;
-      top: 0px;
-      right: 50px;
+      margin: 0;
+      /* top: 0px;
+      right: 50px; */
       z-index: 10;
+      top: 0;
+      right: 200px;
       padding-right: 20px;
+      background-color: blue;
+
+      transform: translateX(200%)
+    }
+
+    .socialHamburger {
+      cursor: pointer;
+      display: block;
+      position: absolute;
+      z-index: 100;
+      background: url("./images/hamburger.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      border: 0;
+      width: 2.8rem;
+      aspect-ratio: 1;
+      top: 2rem;
+      right: 2rem;
     }
   }
