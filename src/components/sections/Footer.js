@@ -10,7 +10,6 @@ import emailhover from '../styles/images/emailhover.png'
 import '../styles/Footer.css';
 
 export default function Footer({loading}) {
-    console.log('footer', loading)
 
     const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
@@ -46,10 +45,18 @@ export default function Footer({loading}) {
                         .footerList {
                             display: ${hamburgerOpen ? 'inline' : 'none'};
                         }
+                        .socialHamburger {
+                            display: ${hamburgerOpen ? 'none' : 'inline'};
+                        }
+                        .socialClose {
+                            display: ${hamburgerOpen ? 'inline' : 'none'}
+                        }
+
                     `}
                 </style>
-
+                <button className="socialClose" onClick={toggleHamburger}></button>
                 <button className="socialHamburger" onClick={toggleHamburger}></button>
+                
 
                 <nav>
                     <ul className="footerList">
