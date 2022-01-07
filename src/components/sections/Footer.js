@@ -42,6 +42,8 @@ export default function Footer({loading}) {
             
                 <style>
                     {`
+                    @media screen and (max-width: 1020px) {
+
                         .footerList {
                             display: ${hamburgerOpen ? 'inline' : 'none'};
                         }
@@ -52,6 +54,7 @@ export default function Footer({loading}) {
                             display: ${hamburgerOpen ? 'inline' : 'none'}
                         }
 
+                    }
                     `}
                 </style>
                 <button className="socialClose" onClick={toggleHamburger}></button>

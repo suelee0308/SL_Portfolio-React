@@ -9,7 +9,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left;
     flex-wrap: wrap;
     font-family: 'Mochiy Pop One', sans-serif;
     margin-top: 60px;
@@ -20,6 +19,14 @@
     font-size: 2.5rem;
     margin-left: 50px;
     line-height: 50px;
+}
+
+.aboutMeHeader > h2 {
+    width: 400px;
+    margin: 20px 40px 0 50px;
+    line-height: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 2.5rem;
 }
 
 .headshot {
@@ -33,17 +40,18 @@
     text-align: left;
     margin: auto;
     width: 80%;
-    padding: 60px 20px;
+    padding: 30px 20px 50px 20px;
 }
 
-@media screen and (max-width: 992px) {
-    .aboutMeHeader > h1 {
-        width: 300px;
-        font-size: 2rem;
+@media screen and (max-width: 1115px) and (min-width: 665px) {
+    .aboutMeHeader > h2 {
+        width: 500px;
+        font-size: 2.2rem;
         margin-left: 35px;
         line-height: 35px;
+        margin: 15px;
     }
     .aboutSection {
-        padding: 35px 20px;
+        padding: 20px 20px 60px 20px;
     }
 }

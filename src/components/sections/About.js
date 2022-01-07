@@ -14,7 +14,7 @@ export default function About({loading}) {
             <div className='aboutMeHeader'>
                 <h1>Hi! I'm Sue Lee!</h1>
                 <img className='headshot' src='./images/headshot.jpg' alt='headshot' />
-                <h1>I spend a lot of time in front of the computer.</h1>
+                <h2 className='aboutHeader2'>I spend a lot of time in front of the computer.</h2>
             </div>
             <section className="aboutSection">
                 <p>
