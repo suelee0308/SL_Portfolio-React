@@ -9,35 +9,35 @@
 }
 
 .navH1 {
-    font-family: 'Ribeye Marrow', cursive;
-    font-size: 85px;
-    color: #000;
-    text-shadow: 3px 3px 2px #be9973;
-    margin: 20px 0px 20px 45px;
+  font-family: 'Ribeye Marrow', cursive;
+  font-size: 85px;
+  color: #000;
+  text-shadow: 3px 3px 2px #be9973;
+  margin: 20px 0px 20px 45px;
 }
 
 .navbarList {
-    height: 55px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border-bottom: 4px solid #000;
-    display: inline-block;
+  height: 55px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 4px solid #000;
+  display: inline-block;
 }
 
 .navCont {
-    margin: 40px 40px 10px 40px;
+  margin: 40px 40px 10px 40px;
 }
 
 .navbarList * {
-    display: inline-block;
-    font-family: 'Gochi Hand', cursive;
-    font-size: 20px;
-    color: #2a2a2a;
-    text-align: center;
-    padding: 7px;
-    text-decoration: none;
+  display: inline-block;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 20px;
+  color: #2a2a2a;
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
 }
 
 .navbarList > li {
@@ -47,15 +47,15 @@
 }
 
 .aboutTab {
-    background-color: #DB77B5;
-    width: 105px;
-    margin-right: 5px;
+  background-color: #DB77B5;
+  width: 115px;
+  margin-right: 5px;
 }
 
 .projectsTab {
-    background-color: #A1E08A;
-    width: 105px;
-    margin-right: 5px;
+  background-color: #A1E08A;
+  width: 105px;
+  margin-right: 5px;
 }
 
 .resumeTab {
@@ -65,15 +65,15 @@
 }
 
 .contactTab {
-    background-color: #fceb95;
-    width: 108px;
+  background-color: #fceb95;
+  width: 108px;
 }
 
 .navbarList > li:hover {
-    transform: translate(0px, 9px);
+  transform: translate(0px, 9px);
     
 }
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1020px) {
     .navBarContainer {
       display: flex;
       justify-content: center;
@@ -86,7 +86,7 @@
     }
 
     .navbarList {
-      height: 38px;
+      height: 47px;
     }
 
     .navCont {
@@ -95,20 +95,53 @@
       margin: auto;
       display: flex;
       justify-content: center;
-      background-color: #FCE2D0;
     }
     .navbarList * {
-      font-size: 14px;
+      font-size: 18px;
+    }
+
+    .navbarList > a {
+      padding: 6px;
+    }
+  }
+  
+  @media screen and (max-width: 620px) {
+    .navBarContainer {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+    .navH1 {
+      font-size: 70px;
+      margin: 20px 0px 20px 0px;
+    }
+
+    .navbarList {
+      height: 50px;
+    }
+
+    .navCont {
+      position: fixed;
+      bottom: 0;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+    .navbarList * {
+      font-size: 15px;
       padding: 5px;
     }
-      .aboutTab {
+    .aboutTab {
         width: 70px;
         margin-right: 5px;
+        padding-bottom: 20px;
     }
     
     .projectsTab {
         width: 70px;
         margin-right: 5px;
+        padding-bottom: 20px;
     }
     
     .resumeTab {
@@ -120,9 +153,3 @@
         width: 73px;
     }
   }
-  
-  /* @media screen and (min-width: 992px) {
-    .Loader-h1 {
-      font-size: 45px;
-    }
-  } */
