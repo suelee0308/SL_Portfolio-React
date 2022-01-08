@@ -27,20 +27,16 @@ ul {
    margin: 15px;
 }
 
-.projectATag {
-   opacity: .5;
-}
-
-.projectATag:hover {
-   opacity: 1;
-}
-
 .projectImg {
    width: 350px;
    height: 200px;
    object-fit: contain;
    margin-top: 20px;
-   z-index: -1;
+   opacity: .6;
+}
+
+.projectImg:hover {
+   opacity: 1;
 }
 
 @media screen and (max-width: 992px) {

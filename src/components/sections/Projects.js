@@ -61,9 +61,10 @@ export default function Projects() {
                 {projects.map((project) => {
                     return (
                     <div className="projectCards">
-                        <a href={project.deploy} target="_blank" rel="noreferrer" className="projectATag">
-                            <img className="projectImg" src={project.image} alt={project.title} />
-                        </a>
+                    <li className="card">
+                    <a href={project.deploy} target="_blank" rel="noreferrer" className="projectATag">
+                        <img className="projectImg" src={project.image} alt={project.title} />
+                    </a>
                     <div className="card-body">
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
@@ -72,6 +73,7 @@ export default function Projects() {
                             <p className="github-button">Github Repo</p>
                         </a>  
                     </div>
+                    </li>
                     </div>
                     )
                 })}
