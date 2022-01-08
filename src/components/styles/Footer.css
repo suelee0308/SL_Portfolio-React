@@ -57,13 +57,13 @@
       margin: 0;
       border-radius: 0 0 0 60px;
       z-index: 10;
-      top: 0px;
-      right: 290px;
+      top: 0;
+      right: 0;
       padding: 90px 30px 10px 20px;
       background-color: #e6c5a5;
 
-      transform: translateX(200%);
-      transition: transform 350ms ease-out;
+      /* transform: translateX(380%); */
+      transition: 350ms ease-out;
     }
 
     .socialHamburger {
@@ -86,7 +86,7 @@
       display: block;
       position: absolute;
       z-index: 100;
-      background: url("./images/closew.png");
+      background: url("./images/closec.png");
       background-repeat: no-repeat;
       background-size: contain;
       border: 0;
@@ -110,11 +110,10 @@
       border-radius: 60px 0 0 60px;
       z-index: 10;
       top: 130px;
-      right: 290px;
+      right: 0;
       padding: 90px 30px 10px 20px;
       background-color: #e6c5a5;
 
-      transform: translateX(200%);
       transition: all transform 350ms ease-out;
     }
 
@@ -131,7 +130,7 @@
       aspect-ratio: 1;
       top: 10rem;
       right: 1.5rem;
-      transition: all 0.3s ease-in;
+      /* transition: all 0.3s ease-in; */
     }
 
     .socialClose {
@@ -139,7 +138,7 @@
       display: block;
       position: absolute;
       z-index: 100;
-      background: url("./images/closew.png");
+      background: url("./images/closec.png");
       background-repeat: no-repeat;
       background-size: contain;
       border: 0;
@@ -147,6 +146,6 @@
       aspect-ratio: 1;
       top: 10rem;
       right: 1.5rem;
-      transition: all 0.3s ease-out;
+      /* transition: all 0.3s ease-out; */
     }
   }
